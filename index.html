@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IEEE LaunchPad Kerala Newsletter</title>
+  <style>
+    /* CSS Styles */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa; /* Light gray background */
+    }
+    .container {
+      width: 90%;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #ffffff; /* White container background */
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1, h2, p {
+      margin-bottom: 30px;
+      font-weight: bold;
+    }
+    h1 {
+      font-size: 28px;
+      color: #343a40; /* Dark gray heading color */
+    }
+    h2 {
+      font-size: 24px;
+      color: #007bff; /* Blue heading color */
+    }
+    p {
+      font-size: 18px;
+      color: #6c757d; /* Medium gray text color */
+    }
+    .cta-button {
+      display: inline-block;
+      padding: 12px 24px;
+      font-size: 18px;
+      background-color: #007bff; /* Blue button color */
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .cta-button:hover {
+      background-color: #0056b3; /* Darker blue on hover */
+    }
+    .event-details {
+      margin-bottom: 40px;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 30px;
+      background-color: #007bff; /* Blue header background */
+      padding: 20px;
+      border-radius: 10px 10px 0 0;
+    }
+    .logo {
+      width: 100%;
+      height: auto;
+    }
+    .intro {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .latest-updates {
+      background-color: #f1f3f5; /* Light gray updates background */
+      padding: 20px;
+      border-radius: 5px;
+    }
+    .latest-updates:hover .tooltip {
+      display: block;
+    }
+    .event-roadmap {
+      background-color: #dae0e5; /* Grayish blue roadmap background */
+      padding: 20px;
+      border-radius: 5px;
+    }
+    .event-roadmap ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    .event-roadmap li {
+      margin-bottom: 20px;
+      padding-left: 30px;
+      position: relative;
+    }
+    .event-roadmap li::before {
+      content: '';
+      width: 10px;
+      height: 10px;
+      background-color: #007bff; /* Blue bullet point color */
+      border-radius: 50%;
+      position: absolute;
+      left: 0;
+      top: 7px;
+    }
+    .event-roadmap p {
+      margin-top: 10px;
+      font-size: 16px;
+      color: #495057; /* Darker text color for roadmap */
+    }
+    .event-roadmap li:hover .tooltip {
+      display: block;
+    }
+    .tooltip {
+      display: none;
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.8);
+      color: #fff;
+      padding: 10px;
+      border-radius: 5px;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 999;
+    }
+    .cta {
+      text-align: center;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="assets\news.png" alt="IEEE LaunchPad Kerala Banner" class="logo">
+    </div>
+
+    <div class="intro">
+      <p>Welcome to IEEE LaunchPad Kerala, where innovation meets opportunity! Our community is dedicated to fostering creativity, collaboration, and technological advancement.</p>
+      <p>Join us in our mission to empower innovators and shape the future. Whether you're a seasoned professional or just starting your journey in technology, there's a place for you in IEEE LaunchPad Kerala!</p>
+    </div>
+
+    <div class="latest-updates">
+      <h2>Latest Updates</h2>
+      <p>Exciting news! We've recently achieved significant milestones in our journey towards innovation and collaboration. Our latest updates include:</p>
+      <ul>
+        <li>Launching a new mentorship program for aspiring entrepreneurs
+          <div class="tooltip">Connect with experienced entrepreneurs for guidance and support.</div>
+        </li>
+        <li>Hosting a successful webinar on artificial intelligence
+          <div class="tooltip">Learn about the latest trends and advancements in AI technology.</div>
+        </li>
+        <li>Collaborating with industry leaders to offer exclusive internship opportunities
+          <div class="tooltip">Gain hands-on experience with leading companies in the field.</div>
+        </li>
+      </ul>
+      <p>Stay tuned for more updates as we continue to grow and expand our community!</p>
+    </div>
+
+    <div class="event-roadmap">
+      <h2>Event Roadmap</h2>
+      <ul>
+        <li>
+          <span>Registration Opens</span>
+          <p>May 10, 2024</p>
+          <div class="tooltip">Register to secure your spot and receive event updates.</div>
+        </li>
+        <li>
+          <span>Join Mulearn Discord Server and complete tasks</span>
+          <p>May 15 - May 20, 2024</p>
+          <div class="tooltip">Join our Discord server and participate in pre-event activities.</div>
+        </li>
+        <li>
+          <span>Online Aptitude Assessment</span>
+          <p>May 25, 2024</p>
+          <div class="tooltip">Test your skills and knowledge with our online assessment.</div>
+        </li>
+        <li>
+          <span>Final Round Interview</span>
+          <p>June 5, 2024</p>
+          <div class="tooltip">Meet our team and showcase your potential in the final interview round.</div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="cta">
+      <p>Ready to join the excitement?</p>
+      <a href="#" class="cta-button">Join IEEE LaunchPad Kerala</a>
+    </div>
+  </div>
+</body>
+</html>
